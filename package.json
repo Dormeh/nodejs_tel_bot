@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-20220421-workshop(wiki)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "html-to-text": "^8.2.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^12.0.0",
+    "pino": "^8.5.0",
+    "pug": "^3.0.2"
+  }
+}
