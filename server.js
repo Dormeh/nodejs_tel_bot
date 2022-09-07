@@ -36,8 +36,7 @@ router.post(config.bot_token, async (ctx, next) => {
     ctx.body = 'ok';
 })
 
-//https://api.telegram.org/bot5640975958:AAEeH9_Aem1ea4bpMOjGAq14LOEmKopM7ho/sendMessage
-
+app.use(router.routes());
 
 app.listen(config.port);
 
